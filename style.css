@@ -1,0 +1,11 @@
+/* Bootstrap handles layout, forms, buttons and the table.
+   This file only keeps the small touches from the original design. */
+body { background: #f1f4ef; }
+
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+
+#message { min-height: 1.5rem; }
+
+.btn:focus-visible,
+.form-control:focus-visible,
+.form-select:focus-visible { outline: 3px solid #b8860b; outline-offset: 2px; }
